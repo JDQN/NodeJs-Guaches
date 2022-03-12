@@ -62,5 +62,5 @@ app.delete('/api/students/:id', (req, res) => {
 
 
 const port = process.env.PORT || 80; // process.env.PORT is Heroku's port if you're using Heroku
-app.listen(port, () => console.log(`Escucahndo en el puerto ${port}...`));
+app.listen(port, () => console.log(`Servidor escuchando en el puerto ${port}...`));
   
